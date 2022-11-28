@@ -3,6 +3,7 @@
   "version": "0.0.0-semantically-released",
   "private": true,
   "dependencies": {
+    "github-fork-ribbon-css": "^0.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "web-vitals": "^2.1.4"
