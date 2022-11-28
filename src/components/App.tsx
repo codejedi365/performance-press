@@ -1,12 +1,19 @@
 import React from 'react';
-import logo from '../styles/icons/logo.svg';
+import 'github-fork-ribbon-css/gh-fork-ribbon.css';
 import '../styles/App.css';
 
 function App() {
   return (
     <div className="App">
+      <a
+        className="github-fork-ribbon right-top"
+        href="https://github.com/codejedi365/performance-press"
+        data-ribbon="Fork me on GitHub"
+        title="Fork me on GitHub"
+      >
+          Fork me on GitHub
+      </a>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/components/App.tsx</code> and save to reload.
         </p>
