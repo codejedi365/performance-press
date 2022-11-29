@@ -5,7 +5,8 @@ on:
   workflow_run:
     workflows: [ Push ]
     types: [ completed ]
-    branches: [ master ]
+    branches:
+      - ${{ github.event.repository.default_branch }}
 
 jobs:
 

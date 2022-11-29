@@ -3,7 +3,9 @@ name: PR Check
 on:
   pull_request:
     types: [ opened, reopened, synchronize ]
-    branches: [ master, next ]
+    branches:
+      - ${{ github.event.repository.default_branch }}
+      - next
 
 jobs:
   validate:

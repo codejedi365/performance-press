@@ -10,14 +10,14 @@ everyone time!
 
 ## Guidelines
 
--   Development environment expectation is NodeJS v16 LTS & `npm >= 8.0.0`
+-   Development environment expectation is NodeJS v18 LTS & `npm >= 8.0.0`
 -   Versioning & releases are handled by CI/CD & semantic versioning construct
     which relies upon semantic commits. We use git hooks with commitizen &
     commitlint to help faciliate contributors.
 
 ## Tools
 
-1. **Git Hooks** (autoconfigured on install with Husky)
+1. **Git Hooks** (autoconfigured on install with `Husky`)
 
 2. **Semantic commits**: Commitizen interactive commit msg creation, with
    `commitlint` verification
