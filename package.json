@@ -17,6 +17,7 @@
   },
   "homepage": "https://codejedi365.github.io/performance-press",
   "dependencies": {
+    "bootstrap": "^4.6.2",
     "github-fork-ribbon-css": "^0.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
