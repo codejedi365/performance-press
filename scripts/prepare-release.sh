@@ -9,7 +9,7 @@ if ! npm pack; then
     exit 1
 fi
 
-if ! sha256sum --binary bulletpress-*.tgz >> checksums.txt; then
+if ! sha256sum --binary performance-press-*.tgz >> checksums.txt; then
     error "Failed to create checksum for distribution package!"
     exit 1
 fi

@@ -5,7 +5,7 @@ Promise.all([require("conventional-changelog-angular/writer-opts")]).then((modul
 });
 
 module.exports = {
-    branches: [ "master" ],
+    branches: [ "main" ],
     plugins: [
         [
             "@semantic-release/commit-analyzer",
@@ -55,7 +55,6 @@ module.exports = {
         [
             "semantic-release-plugin-update-version-in-files", {
                 files: [
-                    "public/index.html",
                     "package.json"
                 ],
                 placeholder: "0.0.0-semantically-versioned"
@@ -69,7 +68,7 @@ module.exports = {
         [
             "@semantic-release/github", {
                 assets: [
-                    { label: "Bulletpress App [offline-pkg]", path: "bulletpress-*.tgz" },
+                    { label: "Performance-Press App [offline-pkg]", path: "performance-press-*.tgz" },
                     { label: "Checksums [SHA-256]", path: "checksums.txt" },
                     { label: "Checksums Signature [GPG]", path: "checksums.txt.gpg" }
                 ]

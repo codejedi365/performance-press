@@ -45,7 +45,7 @@ Include logs, screenshots and relevant details -->
 
 ### Your Environment
 
--   Bulletpress Version: <!-- Version in question where bug occurs -->
+-   Performance-Press Version: <!-- Version in question where bug occurs -->
 <!-- _please verify that the bug exists in the latest release_ -->
 -   OS: <!-- Operating system you are using -->
 -   Browser: <!-- Runtime environment & relevant settings -->

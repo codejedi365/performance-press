@@ -1,7 +1,17 @@
 {
   "name": "performance-press",
   "version": "0.0.0-semantically-released",
+  "description": "WebApp for interactive Air Force Performance Report Writing",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejedi365/peformance-press.git"
+  },
+  "author": "codejedi365 <codejedi365@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/codejedi365/performance-press/issues"
+  },
   "dependencies": {
     "github-fork-ribbon-css": "^0.2.3",
     "react": "^18.2.0",
@@ -9,8 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "commit": "git commit",
+    "commit-retry": "CZ_RETRY=true git commit",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prepare": "is-ci || husky install",
     "test": "react-scripts test"
   },
   "eslintConfig": {
