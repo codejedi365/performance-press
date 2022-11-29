@@ -3,6 +3,9 @@
   "version": "0.0.0-semantically-released",
   "description": "WebApp for interactive Air Force Performance Report Writing",
   "private": true,
+  "files": [
+    "build/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codejedi365/peformance-press.git"
@@ -12,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/codejedi365/performance-press/issues"
   },
+  "homepage": "https://codejedi365.github.io/performance-press",
   "dependencies": {
     "github-fork-ribbon-css": "^0.2.3",
     "react": "^18.2.0",
