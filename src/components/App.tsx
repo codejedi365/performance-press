@@ -1,5 +1,6 @@
 import React from 'react';
 import 'github-fork-ribbon-css/gh-fork-ribbon.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
 
 function App() {
