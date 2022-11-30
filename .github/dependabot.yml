@@ -16,7 +16,7 @@ updates:
     rebase-strategy: "auto"
     versioning-strategy: "auto"
     commit-message:
-      prefix: "build(deps)"
+      prefix: "build"
       include: "scope"
     allow:
       - dependency-type: "production"
@@ -35,4 +35,3 @@ updates:
       - "ci"
     commit-message:
       prefix: "ci(deps)"
-      include: "scope"
