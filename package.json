@@ -1,0 +1,72 @@
+{
+  "name": "performance-press",
+  "version": "0.0.0-semantically-released",
+  "description": "WebApp for interactive Air Force Performance Report Writing",
+  "private": true,
+  "files": [
+    "build/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejedi365/peformance-press.git"
+  },
+  "author": "codejedi365 <codejedi365@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/codejedi365/performance-press/issues"
+  },
+  "homepage": "https://codejedi365.github.io/performance-press",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "github-fork-ribbon-css": "^0.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "commit": "git commit",
+    "commit-retry": "CZ_RETRY=true git commit",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prepare": "is-ci || husky install",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/cz-commitlint": "^17.3.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.2",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "commitizen": "^4.2.5",
+    "husky": "^8.0.2",
+    "is-ci": "^3.0.1",
+    "react-scripts": "^5.0.1",
+    "semantic-release": "^19.0.5",
+    "semantic-release-plugin-update-version-in-files": "^1.1.0",
+    "typescript": "^4.8.4"
+  }
+}
