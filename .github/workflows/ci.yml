@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git checkout HEAD
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install ShellCheck
         run: sudo apt update && sudo apt install shellcheck
@@ -44,7 +44,7 @@ jobs:
         run: echo "FETCH_DEPTH=$(( ${{ github.event.push.commits }} + 1 ))" >> $GITHUB_ENV
 
       - name: git checkout HEAD
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: ${{ env.FETCH_DEPTH }}
 
